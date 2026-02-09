@@ -2,7 +2,7 @@
 
 # testing basics
    
-name = "Gabriel Ricardo Gomes Lima"
+name = "Gabriel Ricardo"
 age = 21
 
 #print(name, age)
@@ -16,4 +16,5 @@ sent3 = "years old"
 #or
 
 print(f"{sent1} {name}, {sent2} {age} {sent3}.")
+
 
