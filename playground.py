@@ -1,4 +1,4 @@
-# day 0 
+# day 0 (09/02/2026)
 
 # testing basics
    
@@ -16,5 +16,6 @@ sent3 = "years old"
 #or
 
 print(f"{sent1} {name}, {sent2} {age} {sent3}.")
+
 
 
