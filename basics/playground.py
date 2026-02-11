@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-print("Hello, World!")
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 # day 0 / (09/02/2026)
 
 # testing basics
@@ -160,6 +145,13 @@ print("Hello, World!")
     #print("An error occurred.")
 
 
+#def hello_world():
+    #print("Hello, world!")
+#hello_world()
+
+def greeting(name):
+    print("hi " + name + "!")
+greeting("Avi")
 
 
 
@@ -172,4 +164,22 @@ print("Hello, World!")
 
 
 
->>>>>>> c18c6abb66ad8ed0ef9701270c4ecee45b670bbb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
