@@ -149,9 +149,13 @@
     #print("Hello, world!")
 #hello_world()
 
-def greeting(name):
-    print("hi " + name + "!")
-greeting("Avi")
+#def greeting(name):
+    #print("hi " + name + "!")
+#greeting("Avi")
+
+
+
+
 
 
 
