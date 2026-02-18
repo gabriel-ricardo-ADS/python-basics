@@ -1,6 +1,14 @@
-n1 = int(input("Type a number: "))
-n2 = int(input("Type another number: "))
+#n1 = int(input("Type a number: "))
+#n2 = int(input("Type another number: "))
 
-sum = n1 + n2
+#sum = n1 + n2
 
-print("Sum: " + str(sum))
+#print("Sum: " + str(sum))
+
+
+num = input("Type a number: ")
+num = int(num)
+cube = num ** 3
+
+print("The cube is", cube)
+
