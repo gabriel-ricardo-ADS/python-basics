@@ -5,11 +5,4 @@ Repository for practicing Python fundamentals such as variables, loops, conditio
 
 This repository contains my Python learning journey.
 
-Day 1:
-- Variables
-- Strings
-- Conditionals
-- Loops
-- try and except
-- functions
-- class inheritace
+
