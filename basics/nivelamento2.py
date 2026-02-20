@@ -1,3 +1,4 @@
+
 dia = int(input("Digite o dia da semana: "))
 if dia == 1:
     print("Domingo")
@@ -19,7 +20,7 @@ else:
 Renda_Bruta = float(input("Digite a renda bruta da empresa: "))
 salarioGerente = Renda_Bruta * 0.05
 salarioSupervisor = Renda_Bruta * 0.01
-salarioFuncionario = Renda_Bruta * 0.001
+salarioFuncionario = Renda_Bruta * 0.005
 cargo = input("Digite o cargo na empresa: ").strip().lower()
 if cargo == "ceo":
     salario = Renda_Bruta - (salarioGerente * 2 + salarioSupervisor * 10 + salarioFuncionario * 50)
@@ -34,6 +35,25 @@ else:
     salario = 0
 
 print(f"O salário do {cargo} é: R${salario:.2f}")
+
+valor_unitario = float(input("Digite o valor unitário do produto: "))
+vendas = float(input("Digite o número de vendas efetuadas: "))
+lucro = vendas * valor_unitario 
+if vendas == 0:
+    comissao = 0 
+elif vendas <= 10:
+    comissao = lucro * 0.005
+elif vendas <= 20:
+    comissao = lucro * 0.01
+elif vendas <= 50:
+    comissao = lucro * 0.015
+else:
+    comissao = lucro * 0.02
+
+
+print(f"A comissão do vendedor é: R${comissao:.2f}")
+               
+
     
     
 
