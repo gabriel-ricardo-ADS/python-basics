@@ -6,8 +6,11 @@ quantidade_vendida = int(input('Digite quantas unidades foram vendidas: '))
 valor_total = valor_peca * quantidade_vendida
 comissao = valor_total * 0.05
 
-print('\n--- Resultados: ---')
+print('\n--- Resultados: ---\n')
 print(f'Parabéns!! Vendedor: {id_vendedor}')
 print(f'Código da peça: {codigo_peca}')
 print(f'Total da venda: R$ {valor_total:.2f}')
 print(f'Sua comissão (5%) é: R$ {comissao:.2f}')
+print('\n--------------------\n')
+
+input("ENTER para sair")
