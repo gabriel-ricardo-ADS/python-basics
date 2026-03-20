@@ -53,21 +53,4 @@ while True:
         print(f'O Aluno RM{rm} está Aprovado!!')
         break
 
-input("ENTER para sair...")
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
 input('\naperte ENTER para sair')   
