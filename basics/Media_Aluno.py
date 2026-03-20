@@ -4,12 +4,12 @@ rm = input("Digite seu Rm: ")
 email = input("Digite seu email: ")
 
 # input das notas das matérias 
-notaPython = float(input('Nota de Python: '))
-notaJava = float(input('Nota de Java: '))
-notaFront = float(input('Nota de Front End: '))
-notaEng = float(input('Nota de Engenharia de Software: '))
-notaData = float(input('Nota de Database: '))
-notaIA = float(input('Nota de IA: '))
+notaPython = float(input('Nota de Python: ').replace(",","."))
+notaJava = float(input('Nota de Java: ').replace(",","."))
+notaFront = float(input('Nota de Front End: ').replace(",","."))
+notaEng = float(input('Nota de Engenharia de Software: ').replace(",","."))
+notaData = float(input('Nota de Database: ').replace(",","."))
+notaIA = float(input('Nota de IA: ').replace(",","."))
 
 notas_Aluno = {    # Dicionario de nome das matérias e notas
     'Python': notaPython, 
