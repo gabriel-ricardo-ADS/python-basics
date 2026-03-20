@@ -11,6 +11,9 @@ print(f'Parabéns!! Vendedor: {id_vendedor}')
 print(f'Código da peça: {codigo_peca}')
 print(f'Total da venda: R$ {valor_total:.2f}')
 print(f'Sua comissão (5%) é: R$ {comissao:.2f}')
-print('\n--------------------\n')
+print('\n-------------------\n')
 
 input("ENTER para sair")
+
+
+
