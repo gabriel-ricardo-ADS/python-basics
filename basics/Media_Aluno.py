@@ -32,5 +32,6 @@ if media_notas >= 6:
 else:
     print("Reprovado...")
 
+print(f"\nUma notificação foi enviada ao email: {email}")
 
-input('\naperte ENTER para sair')
+input('\naperte ENTER para sair')   
