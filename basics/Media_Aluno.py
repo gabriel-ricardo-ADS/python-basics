@@ -1,3 +1,8 @@
+#Identificação do aluno
+nome = input("Digite seu nome: ")
+rm = input("Digite seu Rm: ")
+email = input("Digite seu email: ")
+
 # input das notas das matérias 
 notaPython = float(input('Nota de Python: '))
 notaJava = float(input('Nota de Java: '))
@@ -15,10 +20,17 @@ notas_Aluno = {    # Dicionario de nome das matérias e notas
     'IA': notaIA,
 }
     
-
 # calculo da média
 media_notas = sum(notas_Aluno.values()) / len(notas_Aluno)
 
-print(f"\nMedia do Aluno: {media_notas:.2f}") # Adicionado :.2f para mostrar 2 casas decimais
+print(f"\nMedia do Aluno Rm{rm}: {media_notas:.2f}") # Adicionado :.2f para mostrar 2 casas decimais
+
+
+#Aprovado ou Reprovado
+if media_notas >= 6:
+    print(f"Aprovado!! Parabéns aluno {nome}!")
+else:
+    print("Reprovado...")
+
 
 input('\naperte ENTER para sair')
