@@ -28,11 +28,12 @@ def media(notas):
 
 def reprovados(notas):
     print('---Alunos Reprovados---')
-    reprovados = [nota for nota in notas if nota < 6.0]
-    if reprovados:
-        for i, nota in enumerate(reprovados):
+    houve_reprovado = False
+    for i, nota in enumerate(notas):
+        if nota < 6.0:
             print(f'Aluno {i+1}: {nota:.2f}')
-    else:
+            houve_reprovado = True
+    if not houve_reprovado:
         print('Nenhum aluno reprovado.')
 
 def main():
@@ -41,7 +42,7 @@ def main():
     imprimir_notas(notas)
     media(notas)
     reprovados(notas)
-main()
 
+main()
 
 
